@@ -1,3 +1,3 @@
 #!/bin/sh -l
 cd /bin/staticsites/
-dotnet StaticSitesClient.dll --oryxEnabled true
+dotnet StaticSitesClient.dll $INPUT_ACTION --oryxEnabled true
