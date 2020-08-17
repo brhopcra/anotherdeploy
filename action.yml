@@ -28,7 +28,7 @@ inputs:
   build_timeout_in_minutes:
     description: 'Time limit of oryx build in minutes'
     required: false
-    default: '.'
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
