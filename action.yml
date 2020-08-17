@@ -25,6 +25,10 @@ inputs:
     description: 'Location of Api Artifacts'
     required: false
     default: '.'
+  oryx_timeout_in_minutes:
+    description: 'Time limit of oryx build in minutes'
+    required: false
+    default: '.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
