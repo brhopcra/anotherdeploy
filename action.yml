@@ -1,8 +1,8 @@
 name: 'Azure Pages DevTest'
 description: 'SimpleDeploy'
 inputs:
-  azure_pages_api_token:
-    description: 'Azure Pages Api Token'
+  azure_static_web_apps_api_token:
+    description: 'Azure Static Web Apps Api Token'
     required: true
     default: ''
   action:
