@@ -29,6 +29,10 @@ inputs:
     description: 'Time limit of oryx build in minutes'
     required: false
     default: ''
+   ignore_missing_api_token:
+    description: 'Allows the action to continue without azure_static_web_apps_api_token'
+    required: false
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
